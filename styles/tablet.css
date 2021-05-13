@@ -23,3 +23,12 @@ main input {
     font-weight: 400;
     letter-spacing: .07rem;
     color: #5a5a5a;
+}
+footer a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    margin: 0px 5px;
+    text-decoration: none;
+    color: #444444;
+}
