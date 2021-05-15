@@ -61,6 +61,7 @@
         display: flex;
         width: 320px;
         height: 185px;
+        margin-bottom: 5px;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -71,18 +72,26 @@
         height: 45px;
         margin-top: 5px;
         background-color: #ffffff;
-        border-radius: 20px;
+        border-radius: 25px;
         align-items: center;
         justify-content: space-evenly;
+    }
+    main .main-menu--input:hover {
+        border: 2px solid #969696;
     }
     main input {
         width: 250px;
         height: inherit;
         border: none;
+        outline: none;
         font-size: .98rem;
         font-weight: 400;
         letter-spacing: .07rem;
         color: #5a5a5a;
+    }
+    main input:hover {
+        border-top: 2px solid #969696;
+        border-bottom: 2px solid #969696;
     }
     main .main-mic {
         width: 25px;
@@ -115,6 +124,10 @@
         padding: 3px;
         background-color: #969696;
         color: #ffffff;
+    }
+    .main-search--butons button:hover {
+        color: #ebebeb;
+        border: .5px solid #ffffff;
     }
     footer{
         display: flex;
